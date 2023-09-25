@@ -15,9 +15,7 @@ def main():
   # creating a button for predictions
   stores = ['Badalona', 'Toledo', 'Alcalá de henares']
   query = st.selectbox('Store name', stores, help='Type the name of the store you want to compare and retrieve its mirror store.')
-
-  if st.selectbox(query, query):
-    st.write('Hola')
+  st.write('Hola')
   
 
 if __name__ == '__main__':
