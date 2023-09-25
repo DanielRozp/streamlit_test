@@ -19,8 +19,8 @@ def main():
     st.write('Tu tienda espejo es: San Sebastián de los reyes')
   elif query == 'Toledo':
     st.write('Tu tienda espejo es: Alcobendas')
-  elif query == '':
-    st.write('Tu tienda espejo es: Alcalá de henares')
+  elif query == 'Alcalá de henares':
+    st.write('Tu tienda espejo es: Huercal')
   
 
 if __name__ == '__main__':
