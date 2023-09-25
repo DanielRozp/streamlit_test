@@ -12,10 +12,8 @@ def main():
   diagnosis = ''
 
   # creating a button for predictions
-  if st.button('Test Result'):
-    diagnosis = 'For '+store+' the mirror sotres are: Alcobendas, Toledo, Huercal with 90% of similarity'
-
-  st.success(diagnosis)
+  stores = ['Badalona', 'Toledo', 'Alcalá de henares']
+  st.selectbox('Store name, stores')
 
 if __name__ == '__main__':
   main()
