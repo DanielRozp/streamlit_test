@@ -13,7 +13,7 @@ def main():
 
   # creating a button for predictions
   if st.button('Test Result'):
-    diagnosis = store
+    diagnosis = 'For '+store+' the mirror sotres are: Alcobendas, Toledo, Huercal with 90% of similarity'
 
   st.success(diagnosis)
 
