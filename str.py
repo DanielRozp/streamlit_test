@@ -13,7 +13,7 @@ def main():
 
   # creating a button for predictions
   if st.button('Test Result'):
-    diagnosis = 'Ok done this'
+    diagnosis = store
 
   st.success(diagnosis)
 
