@@ -16,7 +16,9 @@ def main():
   stores = ['Badalona', 'Toledo', 'Alcalá de henares']
   query = st.selectbox('Store name', stores, help='Type the name of the store you want to compare and retrieve its mirror store.')
   if query == 'Badalona':
-    st.write('You selected:', query)
+    st.write('Tu tienda espejo es: San Sebastián de los reyes')
+  elif query = 'Toledo':
+    st.write('Tu tienda espejo es: Alcobendas')
   
 
 if __name__ == '__main__':
